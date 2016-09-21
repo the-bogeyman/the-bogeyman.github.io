@@ -1,0 +1,57 @@
+Version 2.0
+===========
+
+What's new :
+------------
+1) Class routine now stored in database. which makes it easy to make any changes and deliver it to the user.
+2) Routine can be downloaded from the internet without reinstalling the app.
+3) App automatically checks and notifies if an updated version of class routine is availabale.
+4) Automatic update check can be enabled of disabled in settings menu.
+5) App will show notification before the class.
+6) Notification can be enabled or disabled in the settings menu.
+7) It is also possible to control notification behaviours such as sound, vibration and LED color from the settings menu.
+8) For Android 6.0 system, the default icon color of status bar will be black.
+
+_________________________________________________________________________________________________________________________
+Version 2.1
+===========
+
+What's new :
+------------
+1) Removed SDCARD read permission request as it is not needed any more (routine database was moved from external sdcard to
+internal sdcard).
+2) Light Status Bar property can now be enabled or disabled from settings menu. But it will only work in supported
+devices. It works on pure stock system (Symphony Roar A50) but not in other custom systems or modified SystemUI.
+3) Some minor color change.
+
+_________________________________________________________________________________________________________________________
+Version 2.2
+===========
+
+What's new :
+------------
+1) Notification service will start after device boots or reboots.
+2) Notification should be showing even if the app was not used in a long period of time. But it is not guaranteed.
+3) Some minor change in code.
+
+   **Important Note** : The app must be launched by user at least once after installing. If not, Android OS will not start notification service after boot and also won't receive other broadcasts, on which the app relied on to maintain continuous notification service.
+
+_________________________________________________________________________________________________________________________
+Version 2.3
+===========
+
+What's new :
+------------
+1) Added "Deadlines" section. Home work, Assignment and other submission deadlines will be posted there.
+2) Some performance improvements.
+
+_________________________________________________________________________________________________________________________
+*************************************************************************************************************************
+Issues :
+--------
+1) If vibration is off but sound is on inside the app, the phone will still vibrate if the phone system is in vibration mode.
+2) If notificaion is disabled in the settings menu, then other notification related setting will not take effact.
+3) [Partially solved in v2.2] Because of the way Android OS manages the app runtime, this app may not show notification if the app was not accessed in a long period of time (ex. 2days).
+4) Change in setting will apply when the app is launched next time.
+5) Inverted notification icon color only works on pure stock Android systems.
+6) For proper startup after boot and continuous notification service, the app must be started onec after installation or after clearing app data.
