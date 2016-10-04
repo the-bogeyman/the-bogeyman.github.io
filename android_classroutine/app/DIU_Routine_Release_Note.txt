@@ -1,28 +1,20 @@
-Version 2.0
+Version 2.4
 ===========
 
 What's new :
 ------------
-1) Class routine now stored in database. which makes it easy to make any changes and deliver it to the user.
-2) Routine can be downloaded from the internet without reinstalling the app.
-3) App automatically checks and notifies if an updated version of class routine is availabale.
-4) Automatic update check can be enabled of disabled in settings menu.
-5) App will show notification before the class.
-6) Notification can be enabled or disabled in the settings menu.
-7) It is also possible to control notification behaviours such as sound, vibration and LED color from the settings menu.
-8) For Android 6.0 system, the default icon color of status bar will be black.
+1) Added new option to set when to show notificatioin
+2) Solved white status bar issue (not showing any icon) in activity. Not solved when Menu button pressed.
+3) Changed some internal code for notification restart.
 
 _________________________________________________________________________________________________________________________
-Version 2.1
+Version 2.3
 ===========
 
 What's new :
 ------------
-1) Removed SDCARD read permission request as it is not needed any more (routine database was moved from external sdcard to
-internal sdcard).
-2) Light Status Bar property can now be enabled or disabled from settings menu. But it will only work in supported
-devices. It works on pure stock system (Symphony Roar A50) but not in other custom systems or modified SystemUI.
-3) Some minor color change.
+1) Added "Deadlines" section. Home work, Assignment and other submission deadlines will be posted there.
+2) Some performance improvements.
 
 _________________________________________________________________________________________________________________________
 Version 2.2
@@ -37,13 +29,31 @@ What's new :
    **Important Note** : The app must be launched by user at least once after installing. If not, Android OS will not start notification service after boot and also won't receive other broadcasts, on which the app relied on to maintain continuous notification service.
 
 _________________________________________________________________________________________________________________________
-Version 2.3
+Version 2.1
 ===========
 
 What's new :
 ------------
-1) Added "Deadlines" section. Home work, Assignment and other submission deadlines will be posted there.
-2) Some performance improvements.
+1) Removed SDCARD read permission request as it is not needed any more (routine database was moved from external sdcard to
+internal sdcard).
+2) Light Status Bar property can now be enabled or disabled from settings menu. But it will only work in supported
+devices. It works on pure stock system (Symphony Roar A50) but not in other custom systems or modified SystemUI.
+3) Some minor color change.
+
+_________________________________________________________________________________________________________________________
+Version 2.0
+===========
+
+What's new :
+------------
+1) Class routine now stored in database. which makes it easy to make any changes and deliver it to the user.
+2) Routine can be downloaded from the internet without reinstalling the app.
+3) App automatically checks and notifies if an updated version of class routine is availabale.
+4) Automatic update check can be enabled of disabled in settings menu.
+5) App will show notification before the class.
+6) Notification can be enabled or disabled in the settings menu.
+7) It is also possible to control notification behaviours such as sound, vibration and LED color from the settings menu.
+8) For Android 6.0 system, the default icon color of status bar will be black.
 
 _________________________________________________________________________________________________________________________
 *************************************************************************************************************************
